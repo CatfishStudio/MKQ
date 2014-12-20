@@ -272,6 +272,13 @@ package MortalKombatQuest.level
 			if (fighterWin == "NIGHTWOLF_MK3U") _userFighter = new FighterWin( -20, 220, 0, 390, 1000, 560, 100, 170, Resource.NightwolfMK3U_Atlas, 9, 100);
 			if (fighterWin == "NOOBSAIBOT_MK3U") _userFighter = new FighterWin( -20, 220, 0, 390, 300, 560, 100, 170, Resource.NoobsaibotMK3U_Atlas, 2, 100);
 			if (fighterWin == "RAIDEN_MK2") _userFighter = new FighterWin(-40, 220, 0, 450, 1305, 620, 145, 170, Resource.RaidenMK2_Atlas, 8, 145);
+			if (fighterWin == "RAIDEN_MK1") _userFighter = new FighterWin(-40, 240, 0, 420, 625, 585, 125, 165, Resource.RaidenMK1_Atlas, 4, 125);
+			if (fighterWin == "RAIN_MK3U") _userFighter = new FighterWin(-10, 250, 0, 390, 525, 545, 105, 155, Resource.RainMK3U_Atlas, 4, 105);
+			if (fighterWin == "REPTILE_MK3U") _userFighter = new FighterWin(-10, 250, 0, 390, 525, 545, 105, 155, Resource.ReptileMK3U_Atlas, 4, 105);
+			if (fighterWin == "REPTILE_MK2") _userFighter = new FighterWin(-20, 230, 0, 420, 400, 587, 100, 165, Resource.ReptileMK2_Atlas, 3, 100);
+			if (fighterWin == "SCORPION_MK3U") _userFighter = new FighterWin( -20, 220, 0, 390, 300, 560, 100, 170, Resource.ScorpionMK3U_Atlas, 2, 100);
+			if (fighterWin == "SCORPION_MK2") _userFighter = new FighterWin( -20, 220, 0, 420, 300, 590, 100, 170, Resource.ScorpionMK2_Atlas, 2, 100);
+			if (fighterWin == "SCORPION_MK1") _userFighter = new FighterWin(-20, 240, 0, 420, 400, 580, 100, 160, Resource.ScorpionMK1_Atlas, 3, 100);
 			
 			this.addChild(_userFighter);
 		}
@@ -304,6 +311,14 @@ package MortalKombatQuest.level
 			if (fighterLose == "NIGHTWOLF_MK3U") _userFighter = new Fighter(-20, 300, 0, 260, 900, 560, 100, 130, Resource.NightwolfMK3U_Atlas, 8, 100, false);
 			if (fighterLose == "NOOBSAIBOT_MK3U") _userFighter = new Fighter( -20, 300, 0, 260, 800, 560, 100, 130, Resource.NoobsaibotMK3U_Atlas, 7, 100, false);
 			if (fighterLose == "RAIDEN_MK2") _userFighter = new Fighter(-20, 260, 0, 300, 700, 620, 100, 150, Resource.RaidenMK2_Atlas, 6, 100, false);
+			if (fighterLose == "RAIDEN_MK1") _userFighter = new Fighter(-20, 280, 0, 280, 700, 585, 100, 140, Resource.RaidenMK1_Atlas, 6, 100, false);
+			if (fighterLose == "RAIN_MK3U") _userFighter = new Fighter( -20, 300, 0, 260, 800, 545, 100, 130, Resource.RainMK3U_Atlas, 7, 100, false); 
+			if (fighterLose == "REPTILE_MK3U") _userFighter = new Fighter(-20, 300, 0, 260, 800, 545, 100, 130, Resource.ReptileMK3U_Atlas, 7, 100, false); 
+			if (fighterLose == "REPTILE_MK2") _userFighter = new Fighter(-20, 280, 0, 280, 700, 587, 100, 140, Resource.ReptileMK2_Atlas, 6, 100, false);
+			if (fighterLose == "SCORPION_MK3U") _userFighter = new Fighter( -20, 300, 0, 260, 800, 560, 100, 130, Resource.ScorpionMK3U_Atlas, 7, 100, false);
+			if (fighterLose == "SCORPION_MK2") _userFighter = new Fighter( -20, 280, 0, 280, 700, 590, 100, 140, Resource.ScorpionMK2_Atlas, 6, 100, false);
+			if (fighterLose == "SCORPION_MK1") _userFighter = new Fighter(-20, 280, 0, 280, 700, 580, 100, 140, Resource.ScorpionMK1_Atlas, 6, 100, false);
+			
 			
 			this.addChild(_userFighter);
 		}
