@@ -213,7 +213,7 @@ package MortalKombatQuest.level
 			if (Resource.FIGHTER_ID == "SMOKE_MK3U") _userFighter = new Fighter(-20, 280, 0, 0, 900, 280, 100, 140, Resource.SmokeMK3U_Atlas, 8, 100, false);
 			
 			if (Resource.FIGHTER_ID == "MOTARO_MK3U") _userFighter = new Fighter( -150, 180, 0, 0, 2800, 400, 200, 200, Resource.MotaroMK3U_Atlas, 10, 200, false);
-			if (Resource.FIGHTER_ID == "SHAOKAHN_MK3U") _userFighter = new Fighter(-20, 260, 0, 0, 700, 320, 100, 160, Resource.ShaoKahnMK3U_Atlas, 6, 100, false);
+			if (Resource.FIGHTER_ID == "SHAOKAHN_MK3U") _userFighter = new Fighter(-20, 240, 0, 0, 700, 320, 100, 160, Resource.ShaoKahnMK3U_Atlas, 6, 100, false);
 			
 			if (Resource.FIGHTER_ID == "LIUKANG_MK2") _userFighter = new Fighter(-20, 280, 0, 0, 700, 280, 100, 140, Resource.LiuKangMK2_Atlas, 6, 100, false);
 			if (Resource.FIGHTER_ID == "KUNGLAO_MK2") _userFighter = new Fighter(-20, 280, 0, 0, 800, 280, 100, 140, Resource.KungLaoMK2_Atlas, 7, 100, false);
@@ -279,6 +279,11 @@ package MortalKombatQuest.level
 			if (fighterWin == "SCORPION_MK3U") _userFighter = new FighterWin( -20, 220, 0, 390, 300, 560, 100, 170, Resource.ScorpionMK3U_Atlas, 2, 100);
 			if (fighterWin == "SCORPION_MK2") _userFighter = new FighterWin( -20, 220, 0, 420, 300, 590, 100, 170, Resource.ScorpionMK2_Atlas, 2, 100);
 			if (fighterWin == "SCORPION_MK1") _userFighter = new FighterWin(-20, 240, 0, 420, 400, 580, 100, 160, Resource.ScorpionMK1_Atlas, 3, 100);
+			if (fighterWin == "SEKTOR_MK3U") _userFighter = new FighterWin(-10, 260, 0, 420, 600, 570, 100, 150, Resource.SektorMK3U_Atlas, 5, 100);
+			if (fighterWin == "SHANGTSUNG_MK3U") _userFighter = new FighterWin(-20, 230, 0, 390, 800, 555, 100, 165, Resource.ShangTsungMK3U_Atlas, 7, 100);
+			if (fighterWin == "SHANGTSUNG_MK2") _userFighter = new FighterWin(-10, 280, 0, 420, 500, 560, 100, 140, Resource.ShangTsungMK2_Atlas, 4, 100);
+			if (fighterWin == "SHANGTSUNG_MK1") _userFighter = new FighterWin(-20, 220, 0, 420, 300, 585, 100, 165, Resource.ShangTsungMK1_Atlas, 2, 100);
+			if (fighterWin == "SHAOKAHN_MK3U") _userFighter = new FighterWin(-20, 240, 0, 510, 300, 670, 100, 160, Resource.ShaoKahnMK3U_Atlas, 2, 100);
 			
 			this.addChild(_userFighter);
 		}
@@ -318,7 +323,11 @@ package MortalKombatQuest.level
 			if (fighterLose == "SCORPION_MK3U") _userFighter = new Fighter( -20, 300, 0, 260, 800, 560, 100, 130, Resource.ScorpionMK3U_Atlas, 7, 100, false);
 			if (fighterLose == "SCORPION_MK2") _userFighter = new Fighter( -20, 280, 0, 280, 700, 590, 100, 140, Resource.ScorpionMK2_Atlas, 6, 100, false);
 			if (fighterLose == "SCORPION_MK1") _userFighter = new Fighter(-20, 280, 0, 280, 700, 580, 100, 140, Resource.ScorpionMK1_Atlas, 6, 100, false);
-			
+			if (fighterLose == "SEKTOR_MK3U") _userFighter = new Fighter(-20, 280, 0, 280, 800, 570, 100, 140, Resource.SektorMK3U_Atlas, 7, 100, false);
+			if (fighterLose == "SHANGTSUNG_MK3U") _userFighter = new Fighter(-20, 300, 0, 260, 900, 555, 100, 130, Resource.ShangTsungMK3U_Atlas, 8, 100, false);
+			if (fighterLose == "SHANGTSUNG_MK2") _userFighter = new Fighter(-20, 280, 0, 280, 700, 560, 100, 140, Resource.ShangTsungMK2_Atlas, 6, 100, false);
+			if (fighterLose == "SHANGTSUNG_MK1") _userFighter = new FighterWin(-20, 280, 0, 280, 700, 585, 140, 140, Resource.ShangTsungMK1_Atlas, 4, 140);
+			if (fighterLose == "SHAOKAHN_MK3U") _userFighter = new FighterWin(-50, 190, 0, 320, 1500, 670, 150, 190, Resource.ShaoKahnMK3U_Atlas, 9, 150);
 			
 			this.addChild(_userFighter);
 		}
@@ -440,7 +449,7 @@ package MortalKombatQuest.level
 				Resource.BOT_NAME = "Motaro";
 			}
 			if (Resource.BOT_ID == "SHAOKAHN_MK3U") {
-				_botFighter = new Fighter(620, 260, 600, 160, 700, 320, 100, 160, Resource.ShaoKahnMK3U_Atlas, 6, 100, true);
+				_botFighter = new Fighter(620, 240, 600, 160, 700, 320, 100, 160, Resource.ShaoKahnMK3U_Atlas, 6, 100, true);
 				Resource.BOT_NAME = "Shao Kahn";
 			}
 			
