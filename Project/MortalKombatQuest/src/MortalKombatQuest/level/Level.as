@@ -284,6 +284,14 @@ package MortalKombatQuest.level
 			if (fighterWin == "SHANGTSUNG_MK2") _userFighter = new FighterWin(-10, 280, 0, 420, 500, 560, 100, 140, Resource.ShangTsungMK2_Atlas, 4, 100);
 			if (fighterWin == "SHANGTSUNG_MK1") _userFighter = new FighterWin(-20, 220, 0, 420, 300, 585, 100, 165, Resource.ShangTsungMK1_Atlas, 2, 100);
 			if (fighterWin == "SHAOKAHN_MK3U") _userFighter = new FighterWin(-20, 240, 0, 510, 300, 670, 100, 160, Resource.ShaoKahnMK3U_Atlas, 2, 100);
+			if (fighterWin == "SHEEVA_MK3U") _userFighter = new FighterWin(-20, 190, 0, 450, 2100, 635, 150, 185, Resource.SheevaMK3U_Atlas, 13, 150);
+			if (fighterWin == "SINDEL_MK3U") _userFighter = new FighterWin(-20, 220, 0, 390, 700, 550, 100, 160, Resource.SindelMK3U_Atlas, 6, 100);
+			if (fighterWin == "SMOKE_MK3U") _userFighter = new FighterWin(-20, 260, 0, 420, 600, 570, 100, 150, Resource.SmokeMK3U_Atlas, 5, 100);
+			if (fighterWin == "SONYA_MK3U") _userFighter = new FighterWin(-60, 290, 0, 390, 880, 525, 110, 135, Resource.SonyaMK3U_Atlas, 7, 110);
+			if (fighterWin == "SONYA_MK1") _userFighter = new FighterWin(-20, 260, 0, 420, 880, 570, 110, 150, Resource.SonyaMK1_Atlas, 7, 110);
+			if (fighterWin == "STRYKER_MK3U") _userFighter = new FighterWin(-20, 130, 0, 420, 2200, 635, 100, 215, Resource.StrykerMK3U_Atlas, 21, 100);
+			if (fighterWin == "SUBZERO_1_MK3U") _userFighter = new FighterWin( -20, 220, 0, 390, 300, 560, 100, 170, Resource.Subzero1MK3U_Atlas, 2, 100);
+			
 			
 			this.addChild(_userFighter);
 		}
@@ -328,6 +336,13 @@ package MortalKombatQuest.level
 			if (fighterLose == "SHANGTSUNG_MK2") _userFighter = new Fighter(-20, 280, 0, 280, 700, 560, 100, 140, Resource.ShangTsungMK2_Atlas, 6, 100, false);
 			if (fighterLose == "SHANGTSUNG_MK1") _userFighter = new FighterWin(-20, 280, 0, 280, 700, 585, 140, 140, Resource.ShangTsungMK1_Atlas, 4, 140);
 			if (fighterLose == "SHAOKAHN_MK3U") _userFighter = new FighterWin(-50, 190, 0, 320, 1500, 670, 150, 190, Resource.ShaoKahnMK3U_Atlas, 9, 150);
+			if (fighterLose == "SHEEVA_MK3U") _userFighter = new Fighter(-20, 260, 0, 300, 800, 635, 100, 150, Resource.SheevaMK3U_Atlas, 7, 100, false);
+			if (fighterLose == "SINDEL_MK3U") _userFighter = new Fighter(-20, 300, 0, 260, 900, 550, 100, 130, Resource.SindelMK3U_Atlas, 8, 100, false);
+			if (fighterLose == "SMOKE_MK3U") _userFighter = new Fighter(-20, 280, 0, 280, 800, 570, 100, 140, Resource.SmokeMK3U_Atlas, 7, 100, false);
+			if (fighterLose == "SONYA_MK3U") _userFighter = new Fighter( -20, 300, 0, 260, 700, 525, 100, 130, Resource.SonyaMK3U_Atlas, 6, 100, false);
+			if (fighterLose == "SONYA_MK1") _userFighter = new Fighter(-20, 280, 0, 280, 700, 570, 100, 140, Resource.SonyaMK1_Atlas, 6, 100, false);
+			if (fighterLose == "STRYKER_MK3U") _userFighter = new Fighter(-20, 280, 0, 280, 800, 635, 100, 140, Resource.StrykerMK3U_Atlas, 7, 100, false);
+			if (fighterLose == "SUBZERO_1_MK3U") _userFighter = new Fighter( -20, 300, 0, 260, 800, 560, 100, 130, Resource.Subzero1MK3U_Atlas, 7, 100, false);
 			
 			this.addChild(_userFighter);
 		}
